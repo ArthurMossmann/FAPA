@@ -37,4 +37,4 @@ public class Proprietario {
     public String toString() {
         return "Nome: " + nome + ", Endereço: " + endereco + ", Sexo: " + sexo + ", CPF: " + cpf + ", CNH: " + cnh;
     }
-};
+}

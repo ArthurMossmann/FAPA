@@ -24,6 +24,5 @@ public class Exercicio3 {
             System.out.println("O número " + n + " NÃO é um número perfeito.");
         }
 
-        sc.close();
     }
 }

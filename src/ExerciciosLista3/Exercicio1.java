@@ -1,6 +1,5 @@
 package ExerciciosLista3;
 import java.util.Scanner;
-import java.util.concurrent.LinkedTransferQueue;
 
 /*
 1. (ExeRepeticao01) Crie um programa em Java que receba do usuário um número inteiro
@@ -12,10 +11,10 @@ digitado + o somatório dos pares e ímpares separadamente.
 public class Exercicio1{
     public static void main(String[] args) {
         Scanner var = new Scanner(System.in);
-        int totaldepaares =0;
-        int totaldeimpar =0;
-        int somadepares =0;
-        int somadeimpar =0;
+        int totaldepaares = 0;
+        int totaldeimpar = 0;
+        int somadepares = 0;
+        int somadeimpar = 0;
 
         System.out.println("Digite um número inteiro positivo: ");
         int numero = var.nextInt();

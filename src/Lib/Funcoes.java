@@ -1,8 +1,10 @@
 package Lib;
-
+import ExerciciosLista8.Exercicio1.Funcionario;
+import ExerciciosLista8.Exercicio1.Gerente;
 import java.security.SecureRandom;
 
 public class Funcoes {
+
     public static void imprimirmatriz(int[][] matriz, int linhas, int colunas) {
         for (int l = 0; l < linhas; l++) {
             for (int c = 0; c < colunas; c++) {
@@ -50,6 +52,23 @@ public class Funcoes {
             }
         }
         System.out.printf("%nSoma TOTAL de todas as linhas pares: %d%n", somaTotalPares);
+    }
+
+    public static void imprimirFuncionario(Funcionario f) {
+        System.out.println("-------------------------");
+        System.out.println("Nome: " + f.getNome());
+        System.out.println("CPF: " + f.getCpf());
+        System.out.println("Salário: R$ " + f.getSalario());
+        System.out.println("-------------------------");
+        System.out.println();
+    }
+    public static void imprimirGerente(Gerente g) {
+        System.out.println("-------------------------");
+        System.out.println("Nome: " + g.getNome());
+        System.out.println("CPF: " + g.getCpf());
+        System.out.println("Salário com Adicional (20%): R$ " + g.getSalario());
+        System.out.println("Departamento: " + g.getDepartamento());
+        System.out.println("-------------------------");
     }
 }
 
